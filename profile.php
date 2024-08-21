@@ -28,10 +28,12 @@
                     <p class="profile-info"><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</p>
                     <p class="profile-info"><i class="fas fa-phone"></i> +1 234 567 890</p>
                     <p class="profile-info"><i class="fas fa-envelope"></i> john.doe@example.com</p>
+                    <p class="profile-info"><i class="fas fa-semester"></i> Current Semester</p>
                 </div>
             </div>
             <div class="profile-footer">
                 <button>Edit Profile</button>
+                <button>Manage courses</button>
                 </div>
             </div>
 
