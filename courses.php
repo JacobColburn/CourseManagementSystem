@@ -28,7 +28,7 @@ $courses = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <?php require 'master.php'; ?>
 
-<h2>This is where all the courses will be!</h2>
+<h2>This is all of the offered courses!</h2>
 
 <div class="course-container">
     <?php foreach ($courses as $course): ?>
