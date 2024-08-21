@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="profile-footer">
-                <button>Edit Profile</button>
+                <a href-"edit_profile.php"><button>Edit Profile</button></a>
                 <button>Manage courses</button>
                 </div>
             </div>
