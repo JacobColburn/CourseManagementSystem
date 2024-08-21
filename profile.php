@@ -81,10 +81,12 @@ if (!$student) {
                         <p class="profile-info"><i class="fas fa-graduation-cap"></i> Semester: <?php echo htmlspecialchars($student['semester']); ?></p>
                     </div>
                 </div>
-                <div class="profile-footer">
-                    <!-- Buttons for editing the profile and managing courses -->
-                    <button>Edit Profile</button>
-                    <button>Manage courses</button>
+
+            
+            <div class="profile-footer">
+                <a href-"edit_profile.php"><button>Edit Profile</button></a>
+                <button>Manage courses</button>
+
                 </div>
             </div>
         </div>
