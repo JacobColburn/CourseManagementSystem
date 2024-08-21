@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(to bottom, #46a2da, white, #46a2da) !important;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 30px !important;
+    text-decoration: underline;
+    font-weight: bold !important;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    padding: 40px;
+    font-size: 80px !important;
+    font-weight: bold !important;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+div {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.boxed {
+    padding: 20px 30px;
+    margin: auto; /* Center the box within the container */
+    width: 100%;
+    max-width: 600px; /* Set a max width for the form */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    justify-content: center; /* Center the boxes within the container */
+}
+
+.course-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: calc(25% - 16px); /* 4 boxes per row with gap */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+/* Adjust the width for smaller screens to display 3 boxes per row */
+@media (max-width: 1200px) {
+    .course-box {
+        width: calc(33.333% - 16px); /* 3 boxes per row with gap */
+    }
+}
+
+/* Adjust the width for smaller screens to display 2 boxes per row */
+@media (max-width: 800px) {
+    .course-box {
+        width: calc(50% - 16px); /* 2 boxes per row with gap */
+    }
+}
+
+/* Adjust the width for mobile screens to display 1 box per row */
+@media (max-width: 500px) {
+    .course-box {
+        width: calc(100% - 16px); /* 1 box per row with gap */
+    }
+}
+
+.nav-link-red{
+    color: red !important;
+    text-decoration: none; 
+}
+
+
+label {
+    font-size: 26px;
+}
+
+footer {
+    background: transparent !important;
+}
