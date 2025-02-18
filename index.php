@@ -50,9 +50,9 @@ class dbConnect{
     require 'master.php';
      
     ?>
-    
+    <div>
     <h2>Welcome to my Course Management System!</h2>
-    
+    </div>
     <div class="container">
     <div class="boxed" style="text-align: center; font-weight: bold;">
     <?php output_username() ?>

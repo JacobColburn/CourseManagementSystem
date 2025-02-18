@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+    box-sizing: border-box; 
     font-family: 'Times New Roman', Times, serif;
 }
 
 html, body {
     height: 100%;
-    background: linear-gradient(to bottom, #46a2da, white, #46a2da) !important;
+    background: moccasin !important;
     display: flex;
     flex-direction: column;
 }
@@ -28,8 +28,8 @@ h1 {
 h2 {
     text-align: center;
     color: black;
-    padding: 40px;
-    font-size: 80px !important;
+    padding-top: 20px;
+    font-size: 60px !important;
     font-weight: bold !important;
 }
 
@@ -54,9 +54,9 @@ div {
 
 .boxed {
     padding: 20px 30px;
-    margin: auto; /* Center the box within the container */
+    margin: auto; 
     width: 100%;
-    max-width: 600px; /* Set a max width for the form */
+    max-width: 600px; 
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
@@ -68,7 +68,7 @@ div {
     flex-wrap: wrap;
     gap: 16px;
     padding: 20px;
-    justify-content: center; /* Center the boxes within the container */
+    justify-content: center; 
 }
 
 .course-box {
@@ -84,21 +84,21 @@ div {
 /* Adjust the width for smaller screens to display 3 boxes per row */
 @media (max-width: 1200px) {
     .course-box {
-        width: calc(33.333% - 16px); /* 3 boxes per row with gap */
+        width: calc(33.333% - 16px); 
     }
 }
 
 /* Adjust the width for smaller screens to display 2 boxes per row */
 @media (max-width: 800px) {
     .course-box {
-        width: calc(50% - 16px); /* 2 boxes per row with gap */
+        width: calc(50% - 16px); 
     }
 }
 
 /* Adjust the width for mobile screens to display 1 box per row */
 @media (max-width: 500px) {
     .course-box {
-        width: calc(100% - 16px); /* 1 box per row with gap */
+        width: calc(100% - 16px); 
     }
 }
 
@@ -127,21 +127,21 @@ label {
 
 .profile-photo {
     border-radius: 50%;
-    width: 150px; /* Adjust width as needed */
-    height: 150px; /* Adjust height to match the width */
-    object-fit: cover; /* Ensure the image covers the container */
-    border: 2px solid #ddd; /* Optional: Add a border for better visibility */
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    border: 2px solid #ddd; 
 }
 
 .profile-info {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Adjust this for spacing between lines */
+    margin-bottom: 10px; 
 }
 
 .profile-info i {
-    margin-right: 8px; /* Space between the icon and the text */
-    font-size: 1.2em; /* Adjust size as needed */
+    margin-right: 8px;
+    font-size: 1.2em; 
 }
 
 .profile-footer {
@@ -151,15 +151,15 @@ label {
 }
 
 .profile-footer button {
-    width: 200px; /* Set a specific width for uniformity */
-    padding: 10px 20px; /* Adjust padding as needed */
-    font-size: 16px; /* Set a consistent font size */
+    width: 200px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
 }
 
 .enroll-button-container{
-    width: 200px; /* Set a specific width for uniformity */
-    padding: 10px 20px; /* Adjust padding as needed */
-    font-size: 16px; /* Set a consistent font size */
+    width: 200px; 
+    padding: 10px 20px;
+    font-size: 16px; 
     text-align: center;
 }
 .success-message {
